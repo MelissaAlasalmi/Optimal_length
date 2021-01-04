@@ -1,0 +1,26 @@
+body {
+	background-color: #FF9A18;
+}
+
+button {
+	background-color: white;
+	border: none;
+	border-radius: 4px;
+	color: #494E54;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+#input {
+	border: none;
+	border-radius: 4px;
+	color: #494E54;
+	height: 20vh;
+	width: 45vw;
+}

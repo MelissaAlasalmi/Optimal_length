@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<title>Optimal length</title>
+		<link rel="icon" href="Imgs/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Choose the optimal length:</h1>
+		<input type="radio" id="85" name = "option" value="85">
+		<label for="85">85</label>
+		<input type="radio" id="160" name = "option" value="160">
+		<label for="160">160</label>
+		<input type="radio" id="300" name = "option" value="300">
+		<label for="300">300</label>
+		<input type="radio" id="360" name = "option" value="360">
+		<label for="360">360</label>
+		<h1>Paste the text:</h1>
+		<textarea id="input" rows="5"></textarea>
+		<button onclick="getPrompt()">Count!</button>
+		<h2 id="prompt"></h2>
+		<script src="main.js"></script>
+    </body>
+</html>
